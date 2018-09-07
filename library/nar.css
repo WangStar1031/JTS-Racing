@@ -1,0 +1,37 @@
+ body {
+  font-family: Times New Roman;
+ }
+  table.data_table, .data_table td{
+    border-collapse: collapse; border: solid 1px gray;
+  }
+  table.tbl_fp_result, table.tbl_fp_result td{
+    border-collapse: collapse; border: solid 1px gray;  	
+  }
+  table{
+    min-width: 200px;
+  }
+  td{
+    padding: 5px;
+    min-width: 14px;
+  }
+  table.tbl_fp_result td.red{
+  	background-color: #ffcccc;
+  }
+  .hidden{
+    display: none;
+  }
+  .check_fp5 .check_fp5, .check_pay .check_pay, .check_fpall .check_fpall, .check_final .check_final {
+    display: inline;
+  }
+  .log_confirm{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    color: white;
+  }
+  .log_confirm.error{
+    background-color: green;    
+  }
+  .log_confirm.success{
+    background-color: red;
+  }
