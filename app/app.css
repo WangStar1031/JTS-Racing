@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.button {
+	display: inline-block;
+	padding: 7px;
+	width: 200px;
+	border: 3px solid #ccc;
+	font-weight: bold;
+	font-size: 14px;
+}
+.button .on { display: none; }
+.button .off { display: block; }
+.button .active { display: none; }
+.button.active {
+	background-color: white;
+	border-color: #777;
+}
+.button.active .on { display: none; }
+.button.active .off { display: none; }
+.button.active .active { display: block; }
+.button:hover {
+	background-color: green;
+	border-color: green;
+}
+.button:hover .on { display: block; }
+.button:hover .off { display: none; }
+.button:hover .active { display: none; }
+div .special_00
+{
+	position: absolute; top: 0;
+	padding-top: 285px; padding-left: 5px; height: 15px;
+}
